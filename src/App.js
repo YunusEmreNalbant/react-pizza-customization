@@ -29,7 +29,7 @@ function App() {
                             <Customize ingredients={ingredients} setIngredients={setIngredients}/>
                         </Route>
                         <Route path="/checkout">
-                            <Checkout/>
+                            <Checkout ingredients={ingredients} />
                         </Route>
 
                     </Switch>
